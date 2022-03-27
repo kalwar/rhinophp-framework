@@ -1,8 +1,8 @@
 {
-  "name": "sk/rhinophp",
+  "name": "sk/rhinophp-framework",
   "autoload": {
     "psr-4": {
-      "Sk\\Rhinophp\\": "src/"
+      "app\\": "."
     }
   },
   "authors": [
@@ -12,6 +12,7 @@
     }
   ],
   "require": {
+    "vlucas/phpdotenv": "^5.0",
     "rhinophp/rhinophp": "dev-main"
   }
 }
