@@ -1,12 +1,12 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'sk/rhinophp',
+        'reference' => 'eb4ae774ae708ae32dd03709d0502bda805c86b8',
+        'name' => 'sk/rhinophp-framework',
         'dev' => true,
     ),
     'versions' => array(
@@ -39,13 +39,13 @@
             'reference' => 'b911dbc265b6fa31a816e30c358458d41196895e',
             'dev_requirement' => false,
         ),
-        'sk/rhinophp' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+        'sk/rhinophp-framework' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'eb4ae774ae708ae32dd03709d0502bda805c86b8',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-ctype' => array(

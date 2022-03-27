@@ -5,8 +5,8 @@
  */
 
 
-use rhinophp\rhinophp\controllers\AboutController;
-use rhinophp\rhinophp\controllers\SiteController;
+use app\controllers\AboutController;
+use app\controllers\SiteController;
 use rhinophp\rhinophp\Application;
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -38,12 +38,5 @@ $app->router->get('/contact', [SiteController::class, 'contact']);
 $app->router->get('/about', [AboutController::class, 'index']);
 $app->router->get('/profile', [SiteController::class, 'profile']);
 $app->router->get('/profile/{id:\d+}/{username}', [SiteController::class, 'login']);
-// /profile/{id}
-// /profile/13
-// \/profile\/\w+
 
-// /profile/{id}/zura
-// /profile/12/zura
-
-// /{id}
 $app->run();
