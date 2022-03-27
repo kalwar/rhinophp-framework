@@ -1,0 +1,17 @@
+{
+  "name": "sk/rhinophp",
+  "autoload": {
+    "psr-4": {
+      "Sk\\Rhinophp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Administrator",
+      "email": "santoshkalwar@gmail.com"
+    }
+  ],
+  "require": {
+    "rhinophp/rhinophp": "dev-main"
+  }
+}

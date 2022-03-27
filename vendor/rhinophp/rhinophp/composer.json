@@ -1,0 +1,17 @@
+{
+  "name": "rhinophp/rhinophp",
+  "authors": [
+    {
+      "name": "Santosh Kalwar",
+      "email": "santoshkalwar@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "rhinophp\\rhinophp\\": "."
+    }
+  }
+}
