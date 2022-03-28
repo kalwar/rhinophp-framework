@@ -1,6 +1,6 @@
 # RhinoPHP-Framework
 
-RhinoPHP-Framework is a Lite & fast micro PHP framework core.
+RhinoPHP-Framework is a super lite & fast micro PHP framework.
 
 ## Installation
 
