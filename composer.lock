@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9b6cdc2d16bc8811b20d9db9f584608",
+    "content-hash": "41ad175d6675edf1dc5be40a7f09b3f3",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -141,22 +141,18 @@
         },
         {
             "name": "rhinophp/rhinophp",
-            "version": "dev-main",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kalwar/rhinophp-core.git",
-                "reference": "b911dbc265b6fa31a816e30c358458d41196895e"
+                "reference": "ef8594cf1fac64d4dadda7fc5cdb885c5528ca2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kalwar/rhinophp-core/zipball/b911dbc265b6fa31a816e30c358458d41196895e",
-                "reference": "b911dbc265b6fa31a816e30c358458d41196895e",
+                "url": "https://api.github.com/repos/kalwar/rhinophp-core/zipball/ef8594cf1fac64d4dadda7fc5cdb885c5528ca2c",
+                "reference": "ef8594cf1fac64d4dadda7fc5cdb885c5528ca2c",
                 "shasum": ""
             },
-            "require": {
-                "vlucas/phpdotenv": "^5.4"
-            },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -172,9 +168,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kalwar/rhinophp-core/issues",
-                "source": "https://github.com/kalwar/rhinophp-core/tree/main"
+                "source": "https://github.com/kalwar/rhinophp-core/tree/1.0.1"
             },
-            "time": "2022-03-27T20:03:13+00:00"
+            "time": "2022-03-28T16:52:26+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -508,9 +504,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "rhinophp/rhinophp": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

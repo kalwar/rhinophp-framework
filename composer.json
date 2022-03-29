@@ -13,6 +13,6 @@
   ],
   "require": {
     "vlucas/phpdotenv": "^5.0",
-    "rhinophp/rhinophp": "dev-main"
+    "rhinophp/rhinophp": "1.0.1"
   }
 }
